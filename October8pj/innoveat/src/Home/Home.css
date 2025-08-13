@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./ABOUTUS.jpg'); /* Specify the image URL */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-color: #F5F5F5; /* Fallback color */
+}
+
+   
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5b2e1b;
+    padding: 20px;
+  }
+   
+  .logo {
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  .main-content {
+    text-align: center;
+    padding: 40px;
+    background-color: #e0f7fa;
+    margin: 20px auto;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .home {
+    margin-top: 20px;
+  }
+   
+  .main-title {
+    font-size: 48px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+   
+  .image-galleryies {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Adjusted gap to create more space between images */
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Ensures the images wrap if the screen is too small */
+  }
+   
+  .gallery-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+   
+  .description {
+    font-size: 20px;
+    color: #4f2b1d;
+    padding: 20px;
+  }

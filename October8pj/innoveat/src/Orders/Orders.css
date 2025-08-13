@@ -1,0 +1,95 @@
+.orders-containers {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+   
+  .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #5B291D;
+    padding: 50px;
+    gap: 10px;
+  }
+   
+  .menu-item {
+    padding: 10px 20px;
+    background-color: #B6FF66;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .menu-item.active {
+    background-color: #B6844A;
+  }
+   
+  .orders-titles {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+   
+  .orders-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+  }
+   
+  .order-items {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+  }
+   
+  .order-items input[type="checkbox"] {
+    margin-right: -450px;
+  }
+   
+  .order-details div {
+    font-size: 16px;
+    margin-bottom: 5px;
+    word-spacing: 5px;
+  }
+   
+  .order-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .cancel-btn {
+    padding: 10px 20px; 
+    background-color: #FF5C5C;
+    color: white;
+    border: none;
+    margin-left: 50px;
+  }
+   
+  .accept-btn {
+    background-color: #66a6ff;
+    color: black;
+    border: none;
+  }
+   
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .space {
+    word-spacing: 5px; /* Adjust the value to increase or decrease the space */
+}

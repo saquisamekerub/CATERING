@@ -1,0 +1,12 @@
+
+
+
+.background-image-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh; /* Optional: full viewport height for vertical centering */
+  width: 100%; /* Full width to ensure horizontal centering */
+  flex-direction: column;
+  text-align: center;
+}

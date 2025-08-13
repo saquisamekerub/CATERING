@@ -1,0 +1,83 @@
+.orders-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+   
+  .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #5B291D;
+    padding: 50px;
+    gap: 10px;
+  }
+   
+  .menu-item {
+    padding: 10px 20px;
+    background-color: #B6FF66;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .menu-item.active {
+    background-color: #B6844A;
+  }
+   
+  .orders-title {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+   
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+   
+  .order-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+   
+  .order-item input[type="checkbox"] {
+    margin-right: 15px;
+  }
+   
+  .order-details div {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+   
+  .order-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .cancel-btn {
+    background-color: #FF5C5C;
+    color: white;
+  }
+   
+  .accept-btn {
+    background-color: #B6FF66;
+    color: black;
+  }
+   
+  .btn:hover {
+    opacity: 0.9;
+  }

@@ -1,0 +1,98 @@
+
+ 
+ /* General container styling */
+ .container, .container1, .container3 {
+   max-width: 400px;
+   margin: 100px auto;
+   text-align: center;
+ }
+ 
+ .card, .card1, .card3 {
+   width: 100%;
+   max-width: 350px;
+   background-color: azure;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   padding: 20px;
+   border-radius: 50px;
+   margin: 20px auto;
+ }
+ 
+ .card img, .card1 img, .card3 img {
+   width: 85px;
+   height: 85px;
+   display: block;
+   margin: 0 auto;
+ }
+ 
+ .login, .login1, .login3 {
+   margin-top: 20px;
+ }
+ 
+ .input-field {
+   height: 50px;
+   border-radius: 30px;
+   border: none;
+   background-color: rgb(228, 228, 228);
+   width: 100%;
+   padding: 0 10px;
+   margin: 10px 0;
+ }
+ 
+ .bottom-texts {
+   display: flex;
+   font-size: 18px;
+   justify-content: space-around;
+ }
+ 
+ a {
+   text-decoration: none;
+   color: black;
+ }
+ 
+ a:hover {
+   color: rgb(255, 208, 0);
+ }
+ 
+ .button {
+   width: 100%;
+   max-width: 200px;
+   margin: 20px auto;
+   border-radius: 50px;
+   background-color: rgb(255, 208, 0);
+   border: none;
+   font-weight: bold;
+   height: 50px;
+   cursor: pointer;
+ }
+ 
+ .button:hover {
+   background-color: rgb(255, 180, 0);
+ }
+ 
+ h1 {
+   font-size: 50px;
+   margin: 15px 0;
+   color: aliceblue;
+ }
+ 
+ .password-field {
+   position: relative;
+ }
+ 
+ .show-password-button {
+   position: absolute;
+   right: 10px;
+   top: 50%;
+   transform: translateY(-50%);
+   background: none;
+   border: none;
+   cursor: pointer;
+   color: #aaa; /* Change this color as needed */
+   outline: none;
+   font-size: 1rem; /* Adjust size as necessary */
+ }
+ 
+ .input-field {
+   padding-right: 40px; /* Add padding to accommodate the icon */
+ }
+ 

@@ -1,0 +1,84 @@
+     .terms-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   
+   
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+   
+   
+  .terms-body {
+    padding: 20px;
+  }
+   
+  .terms-title {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+  }
+   
+  .terms-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+    color: black;
+    font-size: 16px;
+  }
+   
+  .terms-content p, .terms-content ul {
+    margin: 10px 0;
+  }
+   
+  .terms-content ul {
+    padding-left: 20px;
+  }
+   
+  .terms-content li {
+    margin-bottom: 8px;
+  }
+   
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+   
+  .btn-success {
+    background-color: limegreen;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .btn-success:hover {
+    background-color: yellowgreen;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px; /* Add some space above the checkbox */
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+.checkbox-container label {
+    font-size: 16px; /* Make the label font size consistent */
+    color: black; /* Match the text color */
+}

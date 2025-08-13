@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+   
+  .furnitures-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+    font-family: "Roboto Slab", serif;
+  }
+   
+  .furnitures-item {
+    border: 2px solid #d1a757;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+   
+  .furnitures-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+   
+  .nav-link.active {
+    background-color: #8B4513;
+    border-radius: 5px;
+  }
+   
+  .btn-success {
+    background-color: #b6ed4d;
+    border: none;
+  }
+   
+  .btn-secondary {
+    background-color: #dcdcdc;
+    border: none;
+  }
+   
+  
+  /* Customize scrollbar to blend with container */ /* code for scrollbar */
+  .scrollable-container::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+  }
+   
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .btnBack{
+    width: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: GRAY;
+    border-radius: 40px;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+   
+  .food-choice-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+    font-family: "Roboto Slab", serif;
+  }
+   
+  .food-item {
+    border: 2px solid #d1a757;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+   
+  .food-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+   
+  .nav-link.active {
+    background-color: #8B4513;
+    border-radius: 5px;
+  }
+   
+  .btn-success {
+    background-color: #b6ed4d;
+    border: none;
+  }
+   
+  .btn-secondary {
+    background-color: #dcdcdc;
+    border: none;
+  }
+   
+  
+  /* Customize scrollbar to blend with container */ /* code for scrollbar */
+  .scrollable-container::-webkit-scrollbar {
+    width: 8px;
+  }
+   
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+  }
+   
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: transparent;
+  }

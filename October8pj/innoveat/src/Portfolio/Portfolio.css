@@ -1,0 +1,46 @@
+body {
+    background-color: #fff;
+  }
+
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-top: 50px;
+  }
+   
+  .portfolio-container {
+    background-color:#e0f7fa; /* Light Blue */
+    padding: 50px;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 5600px; /* Adjust height as needed */
+  }
+   
+  .portfolio-container::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+  .portfolio-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+   
+  .portfolio-container::-webkit-scrollbar-thumb {
+    background: #000; /* Black scrollbar */
+    border-radius: 10px;
+  }
+   
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+   
+  button.btn-success {
+    background-color: #ADFF2F; /* Neon Green */
+    border-color: #ADFF2F;
+  }
+   
+  button.btn-secondary {
+    background-color: #D3D3D3;
+    border-color: #D3D3D3;
+  }

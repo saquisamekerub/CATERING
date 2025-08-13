@@ -1,0 +1,153 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #571400;
+    padding: 10px 20px;
+    color: #fff;
+}
+ 
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 20px;
+}
+ 
+.nav-bar a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #baff00;
+    border-radius: 5px;
+}
+ 
+.nav-bar a:hover {
+    background-color: #b5863f;
+}
+ 
+/* Content Styling */
+.contents {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #e0f7fa;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 15px;
+}
+ 
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+ 
+.calendar-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+ 
+.calendar {
+    width: 60%;
+}
+ 
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ 
+.calendar-header button {
+    padding: 5px 10px;
+    background-color: #baff00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+ 
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    font-size: 1em;
+}
+ 
+.disabled {
+    color: #ccc;
+}
+ 
+.today {
+    background-color: #00bfbf;
+    color: white;
+    border-radius: 50%;
+}
+ 
+.notes-section {
+    width: 30%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.notes-section h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+.notes-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ 
+.notes-section li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+ 
+/* Button Styling */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.back-btn  {
+    background-color: rgb(170, 170, 170);
+
+}
+.add-memo-btn   {
+    background-color: #baff00;
+    color: #333;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Fixed: Added font size */
+}
+
+.back-btn:Hover  {
+    background-color: #ff4b4b;
+
+}
+
+.add-memo-btn:Hover   {
+    background-color: #ff4b4b;
+
+
+}

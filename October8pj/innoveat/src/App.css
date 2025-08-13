@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   
+  .bg-brown {
+    background-color: #5b2e1b;
+  }
+   
+  .navbar {
+    background-color: #5b2e1b;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+  }
+   
+  .logo-container {
+    flex: 2;
+  }
+   
+  .navbar-logo {
+    width: 50px; /* Adjust logo size if necessary */
+    height: auto;
+    border-radius: 50%; /* Makes the logo round if needed */
+  }
+   
+  .nav-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 10px; /* Add spacing between buttons */
+  }
+   
+  .button {
+    background-color: #795644; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 10px; /* Optional: rounded corners for individual boxes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow for a box effect */
+  }
+   
+  .button:hover {
+    background-color: #e3c099;
+  }
+   
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    gap: 15px; /* Space between each button */
+  }
+   
+  .App-header {
+    margin-top: 10px;
+    min-height: 90vh;
+    color: black;
+    text-align: left;
+  }
+      

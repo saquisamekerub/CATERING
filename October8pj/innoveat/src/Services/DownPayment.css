@@ -1,0 +1,84 @@
+  
+  .downpayment-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   
+   
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+   
+  .nav-button {
+    background-color: limegreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   
+  .nav-button:hover {
+    background-color: yellowgreen;
+  }
+   
+  .form-body {
+    padding: 20px;
+  }
+   
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+  }
+   
+  .form-body p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: black;
+  }
+   
+  .form-control {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+   
+  .form-control::placeholder {
+    color: black;
+    font-weight: bold;
+  }
+   
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+   
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }
+   
+  .btn-success {
+    background-color: limegreen;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   
+  .btn-success:hover {
+    background-color: yellowgreen;
+  }

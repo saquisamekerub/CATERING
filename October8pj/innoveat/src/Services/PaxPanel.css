@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*PAX TITLE*/
+
+.TITLE_PAX {
+    font-family: "Ubuntu", sans-serif; 
+    margin-top: 50px;
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+
+
+.pax-container {
+    max-width: 1200px; /* Set a max width */
+    max-height: 800px;
+    margin: 0 auto;
+    background-color: #e0f7fa; /* Changed to a light blue background to match the design */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+
+.card50 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+.card50title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+button.btn50{
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+}
+
+button.btn50:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+/*80 PERSONS*/
+
+.card80{
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 50;
+    margin-top: 10px;
+    margin-left: -60px;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+.card80title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+} 
+
+
+.btn80{
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -60px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn80:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+
+/*100 PERSONS*/
+
+
+.card100{
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 50;
+    margin-top: 10px;
+    margin-left: -175px;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card100title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+
+.btn100{
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -150px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn100:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+/*150 PERSONS*/
+
+.card150 {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -310px;
+    font-size: 50;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card150title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+.btn150 {
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -220px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn150:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+
+/*200 PERSONS*/
+
+.card200 {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 50;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card200title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+.btn200 {
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn200:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+/*250 PERSONS*/
+
+.card250 {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:-60px;
+    font-size: 50;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card250title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+.btn250 {
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none; 
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -60px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn250:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+/*300 PERSONS*/
+
+.card300 {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -175px;
+    font-size: 50;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card300title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+.btn300 {
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -150px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn300:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+
+/*500 PERSONS*/
+
+.card500 {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -310px;
+    font-size: 50;
+    color: rgb(70, 70, 70);
+    background-color: #e3c099;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(100, 103, 101, 0.295);
+}
+
+
+.card500title{
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+} 
+
+
+
+.btn500 {
+    background-color: #795644; /* Original color */
+    color: white;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -220px;
+    font-size: large;
+    background-color: none;
+    border-radius: 40px;
+
+}
+
+button.btn500:hover {
+    background-color: #e3c099; /* Pastel pink for hover effect */
+  }
+
+.btnBack{
+    width: 100px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    background-color: GRAY;
+    border-radius: 40px;
+}
